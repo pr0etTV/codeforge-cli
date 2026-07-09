@@ -1,0 +1,29 @@
+{
+    "name":  "codeforge-cli",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "module",
+    "dependencies":  {
+                         "boxen":  "^8.0.1",
+                         "chalk":  "^5.6.2",
+                         "commander":  "^15.0.0",
+                         "dotenv":  "^17.4.2"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^26.1.1",
+                            "tsx":  "^4.23.0",
+                            "typescript":  "^7.0.2"
+                        },
+    "bin":  {
+                "codeforge":  "./src/index.js"
+            }
+}
